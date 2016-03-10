@@ -10,6 +10,7 @@ include ":grpc-compiler"
 include ":grpc-integration-testing"
 include ":grpc-all"
 include ":grpc-benchmarks"
+
 include ":grpc-examples"
 
 project(':grpc-core').projectDir = "$rootDir/core" as File
